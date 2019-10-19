@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,a,img,input,figure,figcaption{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#969696;  
+}
+a:hover{
+    color:#690;
+}
+img{
+    display: block;
+    border:0;
+}
+input,select{
+    outline:none;
+}
+header,footer,main,nav,article,section,aside,figure,figcaption{
+    display: block;
+}
+body{ 
+    font-size:12px; 
+    color:#666; 
+    font-family:Arial,Verdana,"宋体";
+}
+
+// 公共样式
+.w{ 
+    width:1200px; 
+    margin:0 auto;
+}
+.l{ 
+    float:left;
+}
+.r{ 
+    float:right;
+}
+
